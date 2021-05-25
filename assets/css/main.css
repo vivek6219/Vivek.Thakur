@@ -1766,7 +1766,9 @@ input, select, textarea {
 		}
 
 /* Social */
-
+	.resPic{
+		color: greenyellow;
+	}	
 	ul.social {
 		cursor: default;
 		margin: 0;
