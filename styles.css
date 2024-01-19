@@ -92,3 +92,35 @@ p{
     margin-top: 5%;
     font-size: 20px;
 }
+
+
+.weather-image-container{
+    display: flex;
+    justify-content: center;
+    max-width: 30%;
+}
+
+.weather-img{
+    border-radius: 50px;
+    transition:transform 0.3s ease-in-out;
+    padding-bottom: 50px;
+    height: 500px;
+    object-fit: contain;
+}
+
+.weather-img:hover{
+    transform: scale(1.2);
+}
+
+.weather-api{
+    border: 2px solid green;
+    max-width: 30%;
+    max-height: 10%;
+    backdrop-filter: blur(30px);
+}
+.weather-url{
+    text-align: center;
+}
+.description{
+    text-align: center;
+}
