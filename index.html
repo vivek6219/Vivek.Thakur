@@ -3,49 +3,225 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vivek Thakur's Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Vivek Thakur</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
 
-    <div class="container">
-        <video autoplay muted loop class="my-video">
-            <source src="mylivewallpapers-com-Jetty-Snowy-Lake-4K.mp4" type="video/mp4">
-        </video>
-    </div>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Vivek.</a>
 
-    <div class="top-nav">
-        <a href="./index.html">Home</a>
-        <a href="./Vivek_Thakur_Resume.pdf">Resume</a>
-        <a href="./projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
 
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
 
-    </div>
-    <div class="intro">
+            <span class="active-nav"></span>
+        </nav>
+    </header>
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Vivek Thakur</span></h1>
+            <div class="text-animate">
+                <h3>Full-Stack Software Engineer</h3>
+            </div>
+            <p>
+                3 Years of experience in Full-Stack development.
+            </p>
 
-        <h1 class="name">I'm Vivek Thakur.</h1>
-        <p class=index-p1>
-            I'm a <b>&nbsp;Full Stack Software engineer</b>, currently working at Intact Insurance helping build a
-            modern,
-            easy to
-            navigate insurance portal for our agents..
-        </p>
-        <br>
-        <br>
+            <div class="btn-box">
+                <a href="#" class="btn">Hire Me</a>
+                <a href="#" class="btn">Let's Talk</a>
 
-        <p class=index-p2>In my free time, you can catch me training at the local gym lifting some heavy weights or
-            practicing
-            Muay Thai, or going out on my daily adventures with my husky exploring the culture rich Bay Area!</p>
-        <div class="logo">
-            <a href="https://www.linkedin.com/in/vivek6219/" class="fa fa-linkedin"></a>
-            <a href="https://github.com/vivek6219" class="fa fa-github"></a>
+            </div>
         </div>
-    </div>
+        <div class="img">
+            <img src="images/doggie.jpg" class="img-dog">
+        </div>
 
+        <div class="home-sci">
+            <a href="https://www.linkedin.com/in/vivek6219/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/vivek6219"><i class='bx bxl-github'></i></a>
+        </div>
+
+    </section>
+    <!-- about section design -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-img">
+            <!-- <img src="images/doggie.jpg" alt="about me"> -->
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Software Engineer!</h3>
+            <p>Hi! I am a Software Engineer with hands on experience in front and back end development using Java,
+                Spring, SQL, JavaScript, Angular, Python, Rust, MongoDB, AWS, Linux, and GIT. </p>
+            <div class="btn-box btns" id="about-btn">
+                <a href="#" class="btn">Read More!</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- education section design -->
+    <section class="education" id="education">
+        <h2 class="heading">
+            My <span>Journey</span>
+        </h2>
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2018-2020</div>
+                            <h3>Bachelors of Science. Computer Science - CSU East Bay</h3>
+                        </div>
+                    </div>
+
+                    <!-- <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>1234 4567</div>
+                            <h3>DEGREE-UNIVERSITY</h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div> -->
+                    <!-- <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>1234 4567</div>
+                            <h3>DEGREE-UNIVERSITY</h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">Experience</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>Dec. 2022 - Feb. 2024</div>
+                            <h3>Software Engineer II - Intact Insurance</h3>
+                            <p>Transitioned from Websphere to Apache Tomcat into lower environments.</p>
+                            <p>Made structural improvements to application behind core underwriting services.</p>
+                            <p>Introduced new functionality in internal tooling systems leading to
+                                increased productivity
+                            </p>
+                            <p>Technologies Used: <span>Java, Websphere, Apache Tomcat, SQL, .NET,
+                                    JavaScript </span></p>
+
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>May 2021 - Nov. 2022</div>
+                            <h3>Software Engineer I - Shelter Insurance </h3>
+                            <p>Created a new microservice scheduling application and built out the necessary pipelines
+                                using Ci/CD and created AWS buckets to hold data.
+                            </p>
+                            <p>Worked on product team to develop features, bug fixes, and app improvements.</p>
+                            <p>Technologies used: <span>Java, Spring Boot, SQL, JavaScript, JQuery, Grafana,
+                                    AWS, Jenkins(CI/CD),
+                                </span></p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>May 2020 - Dec. 2020</div>
+                            <h3>Software Engineer Intern - MDout</h3>
+                            <p>Created a disease modeling system with data visualization
+                                dashboard based off of twitter api .</p>
+                            </br>
+                            <p>Technologies used: <span>Angular/TypeScript, Python/Flask, Charts.js, Apache
+                                    Charts</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills section design -->
+    <section class="skills" id="skills">
+        <h2 class="heading"> My <span>Skills</span></h2>
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Proficiencies:</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Java </h3>
+                        </div>
+                        <div class="progress">
+                            <h3>Spring Boot </h3>
+                        </div>
+                        <div class="progress">
+                            <h3>Angular</h3>
+                        </div>
+                        <div class="progress">
+                            <h3>SQL </h3>
+                        </div>
+                        <div class="progress">
+                            <h3>JavaScript </h3>
+                        </div>
+                        <div class="progress">
+                            <h3>React </h3>
+                        </div>
+                        <div class="progress">
+                            <h3>MongoDB </h3>
+                        </div>
+                        <div class="progress">
+                            <h3>AWS </h3>
+                        </div>
+                        <div class="progress">
+                            <h3>Python </h3>
+                        </div>
+                        <div class="progress">
+                            <h3>Rust </h3>
+                        </div>
+                    </div>
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>CSS </h3>
+                        </div>
+                    </div>
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <div class="contact-me">
+            <h2 class="heading"> Contact <span>Me!</span></h2>
+            <div class="email">
+                <p>For any job related inquiries, feel free to reach out directly to vivek6219@gmail.com </p>
+            </div>
+        </div>
+    </section>
+    <!-- footer design -->
+
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
